@@ -1,4 +1,5 @@
 const API_URL = process.env.REACT_APP_API_URL;
+console.log('API URL:', API_URL); // Verify it's loaded correctly
 
 export const processImage = async (imageFile) => {
     try {
